@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/XilinxVM/deneey62023/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/XilinxVM/deneey62023/xst"
+elaborate
+-ifn sevseg.prj
+-ifmt mixed

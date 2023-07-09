@@ -1,0 +1,9 @@
+V3 10
+FL /home/ise/C_DRIVE/XilinxS/deney2sch2022/sch.vhf 2022/03/24.07:36:37 P.20131013
+FL /home/ise/XilinxVM/deney2sch2022/sch.vhf 2022/03/24.07:36:37 P.20131013
+EN work/sch 1680202034 FL /home/ise/XilinxVM/deney2sch2022/sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sch/BEHAVIORAL 1680202035 \
+      FL /home/ise/XilinxVM/deney2sch2022/sch.vhf EN work/sch 1680202034 CP AND2 \
+      CP NAND2 CP OR2 CP NOR2 CP INV

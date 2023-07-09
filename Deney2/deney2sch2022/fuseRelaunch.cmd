@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/XilinxVM/deney2sch2022/sch_sch_sch_tb_isim_beh.exe" -prj "/home/ise/XilinxVM/deney2sch2022/sch_sch_sch_tb_beh.prj" "work.sch_sch_sch_tb" 

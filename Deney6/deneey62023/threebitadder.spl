@@ -1,0 +1,6 @@
+[Inputs]
+=Ain[2:0]=
+=Bin[2:0]=
+[Outputs]
+=Sout[3:0]=
+[BiDir]

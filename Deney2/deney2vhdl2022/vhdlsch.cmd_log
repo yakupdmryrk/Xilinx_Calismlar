@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.xst" -ofn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 vhdlsch.ngc vhdlsch.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o vhdlsch_map.ncd vhdlsch.ngd vhdlsch.pcf 
+par -w -intstyle ise -ol high -t 1 vhdlsch_map.ncd vhdlsch.ncd vhdlsch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vhdlsch.twx vhdlsch.ncd -o vhdlsch.twr vhdlsch.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vhdlpin.ucf -p xc3s250e-cp132-5 vhdlsch.ngc vhdlsch.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o vhdlsch_map.ncd vhdlsch.ngd vhdlsch.pcf 
+par -w -intstyle ise -ol high -t 1 vhdlsch_map.ncd vhdlsch.ncd vhdlsch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vhdlsch.twx vhdlsch.ncd -o vhdlsch.twr vhdlsch.pcf -ucf vhdlpin.ucf 
+bitgen -intstyle ise -f vhdlsch.ut vhdlsch.ncd 
+xst -intstyle ise -ifn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.xst" -ofn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vhdlpin.ucf -p xc3s250e-cp132-5 vhdlsch.ngc vhdlsch.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o vhdlsch_map.ncd vhdlsch.ngd vhdlsch.pcf 
+par -w -intstyle ise -ol high -t 1 vhdlsch_map.ncd vhdlsch.ncd vhdlsch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vhdlsch.twx vhdlsch.ncd -o vhdlsch.twr vhdlsch.pcf -ucf vhdlpin.ucf 
+bitgen -intstyle ise -f vhdlsch.ut vhdlsch.ncd 
+xst -intstyle ise -ifn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.xst" -ofn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vhdlpin.ucf -p xc3s250e-cp132-5 vhdlsch.ngc vhdlsch.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o vhdlsch_map.ncd vhdlsch.ngd vhdlsch.pcf 
+par -w -intstyle ise -ol high -t 1 vhdlsch_map.ncd vhdlsch.ncd vhdlsch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vhdlsch.twx vhdlsch.ncd -o vhdlsch.twr vhdlsch.pcf -ucf vhdlpin.ucf 
+bitgen -intstyle ise -f vhdlsch.ut vhdlsch.ncd 
+xst -intstyle ise -ifn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.xst" -ofn "/home/ise/C_DRIVE/XilinxS/deney2vhdl2022/vhdlsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vhdlpin.ucf -p xc3s250e-cp132-5 vhdlsch.ngc vhdlsch.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o vhdlsch_map.ncd vhdlsch.ngd vhdlsch.pcf 
+par -w -intstyle ise -ol high -t 1 vhdlsch_map.ncd vhdlsch.ncd vhdlsch.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vhdlsch.twx vhdlsch.ncd -o vhdlsch.twr vhdlsch.pcf -ucf vhdlpin.ucf 
+bitgen -intstyle ise -f vhdlsch.ut vhdlsch.ncd 

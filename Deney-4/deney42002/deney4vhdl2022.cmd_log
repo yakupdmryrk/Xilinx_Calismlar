@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "X:/XilinxS/deney42002/deney4vhdl2022.xst" -ofn "X:/XilinxS/deney42002/deney4vhdl2022.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 deney4vhdl2022.ngc deney4vhdl2022.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o deney4vhdl2022_map.ncd deney4vhdl2022.ngd deney4vhdl2022.pcf 
+par -w -intstyle ise -ol high -t 1 deney4vhdl2022_map.ncd deney4vhdl2022.ncd deney4vhdl2022.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml deney4vhdl2022.twx deney4vhdl2022.ncd -o deney4vhdl2022.twr deney4vhdl2022.pcf 
+bitgen -intstyle ise -f deney4vhdl2022.ut deney4vhdl2022.ncd 
+xst -intstyle ise -ifn "X:/XilinxS/deney42002/deney4vhdl2022.xst" -ofn "X:/XilinxS/deney42002/deney4vhdl2022.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 deney4vhdl2022.ngc deney4vhdl2022.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o deney4vhdl2022_map.ncd deney4vhdl2022.ngd deney4vhdl2022.pcf 
+par -w -intstyle ise -ol high -t 1 deney4vhdl2022_map.ncd deney4vhdl2022.ncd deney4vhdl2022.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml deney4vhdl2022.twx deney4vhdl2022.ncd -o deney4vhdl2022.twr deney4vhdl2022.pcf 
+bitgen -intstyle ise -f deney4vhdl2022.ut deney4vhdl2022.ncd 
+xst -intstyle ise -ifn "X:/XilinxS/deney42002/deney4vhdl2022.xst" -ofn "X:/XilinxS/deney42002/deney4vhdl2022.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc deney4pin22.ucf -p xc3s100e-cp132-5 deney4vhdl2022.ngc deney4vhdl2022.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o deney4vhdl2022_map.ncd deney4vhdl2022.ngd deney4vhdl2022.pcf 
+par -w -intstyle ise -ol high -t 1 deney4vhdl2022_map.ncd deney4vhdl2022.ncd deney4vhdl2022.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml deney4vhdl2022.twx deney4vhdl2022.ncd -o deney4vhdl2022.twr deney4vhdl2022.pcf -ucf deney4pin22.ucf 
+bitgen -intstyle ise -f deney4vhdl2022.ut deney4vhdl2022.ncd 
+xst -intstyle ise -ifn "X:/XilinxS/deney42002/deney4vhdl2022.xst" -ofn "X:/XilinxS/deney42002/deney4vhdl2022.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc deney4pin22.ucf -p xc3s100e-cp132-5 deney4vhdl2022.ngc deney4vhdl2022.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o deney4vhdl2022_map.ncd deney4vhdl2022.ngd deney4vhdl2022.pcf 
+par -w -intstyle ise -ol high -t 1 deney4vhdl2022_map.ncd deney4vhdl2022.ncd deney4vhdl2022.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml deney4vhdl2022.twx deney4vhdl2022.ncd -o deney4vhdl2022.twr deney4vhdl2022.pcf -ucf deney4pin22.ucf 
+bitgen -intstyle ise -f deney4vhdl2022.ut deney4vhdl2022.ncd 
+xst -intstyle ise -ifn "/home/ise/XilinxVM/deney42002/deney4vhdl2022.xst" -ofn "/home/ise/XilinxVM/deney42002/deney4vhdl2022.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc deney4pin22.ucf -p xc3s100e-cp132-5 deney4vhdl2022.ngc deney4vhdl2022.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o deney4vhdl2022_map.ncd deney4vhdl2022.ngd deney4vhdl2022.pcf 
+xst -intstyle ise -ifn "/home/ise/XilinxVM/deney42002/deney4vhdl2022.xst" -ofn "/home/ise/XilinxVM/deney42002/deney4vhdl2022.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc deney4pin22.ucf -p xc3s100e-cp132-5 deney4vhdl2022.ngc deney4vhdl2022.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o deney4vhdl2022_map.ncd deney4vhdl2022.ngd deney4vhdl2022.pcf 
+par -w -intstyle ise -ol high -t 1 deney4vhdl2022_map.ncd deney4vhdl2022.ncd deney4vhdl2022.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml deney4vhdl2022.twx deney4vhdl2022.ncd -o deney4vhdl2022.twr deney4vhdl2022.pcf -ucf deney4pin22.ucf 
+bitgen -intstyle ise -f deney4vhdl2022.ut deney4vhdl2022.ncd 

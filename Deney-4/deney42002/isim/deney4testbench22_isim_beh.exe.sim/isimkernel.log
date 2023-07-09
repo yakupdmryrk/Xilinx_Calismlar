@@ -1,0 +1,10 @@
+Command line:
+   deney4testbench22_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49672
+
+Wed Apr 19 07:38:33 2023
+
+
+ Elaboration Time: 0.04 sec

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/ise/XilinxVM/deneey62023/deney6adder.xst" -ofn "/home/ise/XilinxVM/deneey62023/deney6adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 deney6adder.ngc deney6adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o deney6adder_map.ncd deney6adder.ngd deney6adder.pcf 
+par -w -intstyle ise -ol high -t 1 deney6adder_map.ncd deney6adder.ncd deney6adder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml deney6adder.twx deney6adder.ncd -o deney6adder.twr deney6adder.pcf 

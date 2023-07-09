@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/C_DRIVE/XilinxS/deney2sch2022/sch.ncd
+OUTFILE=/home/ise/C_DRIVE/XilinxS/deney2sch2022/sch.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5cp132
+WORKINGDIR=/home/ise/C_DRIVE/XilinxS/deney2sch2022
+LICENSE=WebPack
+USER_INFO=211113187_0_0_510

@@ -1,0 +1,5 @@
+MODULE deney6sch
+	SUBMODULE threebitadder
+		INSTANCE XLXI_1
+	SUBMODULE sevseg
+		INSTANCE XLXI_2

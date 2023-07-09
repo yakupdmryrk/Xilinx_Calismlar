@@ -1,0 +1,38 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : deney6sch.vf
+// /___/   /\     Timestamp : 05/04/2023 15:57:26
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog /home/ise/XilinxVM/deneey62023/deney6sch.vf -w /home/ise/XilinxVM/deneey62023/deney6sch.sch
+//Design Name: deney6sch
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module deney6sch(Ain, 
+                 Bin, 
+                 S);
+
+    input [2:0] Ain;
+    input [2:0] Bin;
+   output [7:0] S;
+   
+   wire [3:0] XLXN_3;
+   
+   threebitadder  XLXI_1 (.Ain(Ain[2:0]), 
+                         .Bin(Bin[2:0]), 
+                         .Sout(XLXN_3[3:0]));
+   sevseg  XLXI_2 (.A(XLXN_3[3:0]), 
+                  .S(S[7:0]));
+endmodule

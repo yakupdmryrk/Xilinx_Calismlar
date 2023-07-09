@@ -1,0 +1,2 @@
+vhdtdtfi -lib work deney6adder.vhd -lib work threebitadder.vhd -prj deneey62023 -o threebitadder.spl -module threebitadder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e threebitadder.spl /home/ise/XilinxVM/deneey62023/threebitadder.sym 

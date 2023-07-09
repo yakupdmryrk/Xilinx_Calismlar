@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=X:\XilinxS\deney42002\impact.xsl
+OUTFILE=X:\XilinxS\deney42002\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=X:\XilinxS\deney42002
+LICENSE=iMPACT
+USER_INFO=iMPACT

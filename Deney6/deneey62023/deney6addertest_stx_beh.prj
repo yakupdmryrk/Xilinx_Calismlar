@@ -1,0 +1,2 @@
+vhdl isim_temp "deney6adder.vhd"
+vhdl isim_temp "deney6addertest.vhd"

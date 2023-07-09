@@ -1,0 +1,35 @@
+V3 18
+FL /home/ise/XilinxVM/deneey62023/deney6adder.vhd 2023/05/04.15:32:56 P.20131013
+EN work/deney6adder 1683215305 FL /home/ise/XilinxVM/deneey62023/deney6adder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/deney6adder/Behavioral 1683215306 \
+      FL /home/ise/XilinxVM/deneey62023/deney6adder.vhd EN work/deney6adder 1683215305
+FL /home/ise/XilinxVM/deneey62023/deney6fulladder.vhd 2023/05/04.14:50:47 P.20131013
+EN work/deney6fulladder 1683212282 \
+      FL /home/ise/XilinxVM/deneey62023/deney6fulladder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/deney6fulladder/Behavioral 1683212283 \
+      FL /home/ise/XilinxVM/deneey62023/deney6fulladder.vhd \
+      EN work/deney6fulladder 1683212282
+FL /home/ise/XilinxVM/deneey62023/sevseg.vhd 2023/05/04.15:50:52 P.20131013
+EN work/sevseg 1683215453 FL /home/ise/XilinxVM/deneey62023/sevseg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sevseg/Behavioral 1683215454 \
+      FL /home/ise/XilinxVM/deneey62023/sevseg.vhd EN work/sevseg 1683215453
+FL /home/ise/XilinxVM/deneey62023/threebitadder.vhd 2023/05/04.15:37:30 P.20131013
+EN work/threebitadder 1683214661 \
+      FL /home/ise/XilinxVM/deneey62023/threebitadder.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/threebitadder/Behavioral 1683214662 \
+      FL /home/ise/XilinxVM/deneey62023/threebitadder.vhd EN work/threebitadder 1683214661 \
+      CP deney6adder
+FL /home/ise/XilinxVM/deneey62023/Threefulladder.vhd 2023/05/04.14:57:59 P.20131013
+EN work/Threefulladder 1683212284 \
+      FL /home/ise/XilinxVM/deneey62023/Threefulladder.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Threefulladder/Behavioral 1683212285 \
+      FL /home/ise/XilinxVM/deneey62023/Threefulladder.vhd EN work/Threefulladder 1683212284 \
+      CP deney6fulladder

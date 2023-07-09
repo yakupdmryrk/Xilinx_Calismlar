@@ -1,0 +1,12 @@
+net "A(0)" loc="P11";
+net "A(1)" loc="L3";
+net "A(2)" loc="K3";
+net "A(3)" loc="B4";
+net "S(0)" loc="L14";
+net "S(1)" loc="H12";
+net "S(2)" loc="N14";
+net "S(3)" loc="N11";
+net "S(4)" loc="P12";
+net "S(5)" loc="L13";
+net "S(6)" loc="M12";
+net "S(7)" loc="N13";   

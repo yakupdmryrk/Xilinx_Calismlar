@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/XilinxVM/deneey62023/deney6sch_deney6sch_sch_tb_isim_beh.exe" -prj "/home/ise/XilinxVM/deneey62023/deney6sch_deney6sch_sch_tb_beh.prj" "work.deney6sch_deney6sch_sch_tb" "work.glbl" 

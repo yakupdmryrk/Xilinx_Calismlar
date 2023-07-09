@@ -1,0 +1,16 @@
+V3 8
+FL //vboxsvr/virtual_box_dosya_paylaþým/XilinxS/deney42002/deney42022vhdl.vhd 2022/04/07.11:45:51 P.20131013
+EN work/deney42022vhdl 0 \
+      FL //vboxsvr/virtual_box_dosya_paylaþým/XilinxS/deney42002/deney42022vhdl.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/deney42022vhdl/Behavioral 0 \
+      FL //vboxsvr/virtual_box_dosya_paylaþým/XilinxS/deney42002/deney42022vhdl.vhd \
+      EN work/deney42022vhdl 0
+FL //vboxsvr/virtual_box_dosya_paylaþým/XilinxS/deney42002/deney4vhdl2022.vhd 2022/04/07.13:25:27 P.20131013
+FL /home/ise/XilinxVM/deney42002/deney4vhdl2022.vhd 2022/04/07.10:25:27 P.20131013
+EN work/deney4vhdl2022 1681889864 \
+      FL /home/ise/XilinxVM/deney42002/deney4vhdl2022.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/deney4vhdl2022/Behavioral 1681889865 \
+      FL /home/ise/XilinxVM/deney42002/deney4vhdl2022.vhd EN work/deney4vhdl2022 1681889864

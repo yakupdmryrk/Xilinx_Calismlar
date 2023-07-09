@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/ise/XilinxVM/deneey62023/Threefulladder.xst" -ofn "/home/ise/XilinxVM/deneey62023/Threefulladder.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxVM/deneey62023/Threefulladder.xst" -ofn "/home/ise/XilinxVM/deneey62023/Threefulladder.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxVM/deneey62023/Threefulladder.xst" -ofn "/home/ise/XilinxVM/deneey62023/Threefulladder.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxVM/deneey62023/Threefulladder.xst" -ofn "/home/ise/XilinxVM/deneey62023/Threefulladder.syr" 

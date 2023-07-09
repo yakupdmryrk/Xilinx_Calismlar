@@ -1,0 +1,10 @@
+AR deney6adder behavioral /home/ise/XilinxVM/deneey62023/deney6adder.vhd sub00/vhpl05 1683215306
+AR threebitadder behavioral /home/ise/XilinxVM/deneey62023/threebitadder.vhd sub00/vhpl07 1683214662
+AR deney6fulladder behavioral /home/ise/XilinxVM/deneey62023/deney6fulladder.vhd sub00/vhpl01 1683212283
+EN threebitadder NULL /home/ise/XilinxVM/deneey62023/threebitadder.vhd sub00/vhpl06 1683214661
+EN threefulladder NULL /home/ise/XilinxVM/deneey62023/Threefulladder.vhd sub00/vhpl02 1683212284
+AR threefulladder behavioral /home/ise/XilinxVM/deneey62023/Threefulladder.vhd sub00/vhpl03 1683212285
+EN deney6adder NULL /home/ise/XilinxVM/deneey62023/deney6adder.vhd sub00/vhpl04 1683215305
+EN sevseg NULL /home/ise/XilinxVM/deneey62023/sevseg.vhd sub00/vhpl08 1683215453
+AR sevseg behavioral /home/ise/XilinxVM/deneey62023/sevseg.vhd sub00/vhpl09 1683215454
+EN deney6fulladder NULL /home/ise/XilinxVM/deneey62023/deney6fulladder.vhd sub00/vhpl00 1683212282

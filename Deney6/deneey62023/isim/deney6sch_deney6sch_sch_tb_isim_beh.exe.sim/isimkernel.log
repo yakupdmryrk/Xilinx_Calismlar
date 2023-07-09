@@ -1,0 +1,29 @@
+Command line:
+   deney6sch_deney6sch_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58548
+
+Thu May  4 15:57:28 2023
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 196.538 Meg
+
+ Total Signals          : 70
+ Total Nets             : 99
+ Total Signal Drivers   : 30
+ Total Blocks           : 12
+ Total Primitive Blocks : 9
+ Total Processes        : 31
+ Total Traceable Variables  : 33
+ Total Scalar Nets and Variables : 664
+Total Line Count : 51
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 274.137 Meg
+
+Thu May  4 15:58:34 2023
+

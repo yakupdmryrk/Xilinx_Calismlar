@@ -1,0 +1,6 @@
+vhdl work "deney6adder.vhd"
+vhdl work "threebitadder.vhd"
+vhdl work "sevseg.vhd"
+verilog work "deney6sch.vf"
+vhdl work "deney6testsch.vhd"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

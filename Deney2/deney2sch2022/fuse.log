@@ -1,0 +1,29 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/XilinxVM/deney2sch2022/sch_sch_sch_tb_isim_beh.exe -prj /home/ise/XilinxVM/deney2sch2022/sch_sch_sch_tb_beh.prj work.sch_sch_sch_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/XilinxVM/deney2sch2022/sch.vhf" into library work
+Parsing VHDL file "/home/ise/XilinxVM/deney2sch2022/testsch.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 112864 KB
+Fuse CPU Usage: 510 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture nand2_v of entity NAND2 [nand2_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture nor2_v of entity NOR2 [nor2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity sch [sch_default]
+Compiling architecture behavioral of entity sch_sch_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable /home/ise/XilinxVM/deney2sch2022/sch_sch_sch_tb_isim_beh.exe
+Fuse Memory Usage: 945464 KB
+Fuse CPU Usage: 680 ms
+GCC CPU Usage: 470 ms
